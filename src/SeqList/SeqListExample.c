@@ -4,7 +4,7 @@
  * @version 1.0
  */
 #include <stdio.h>
-#include "../src/SeqList/SeqList.h"
+#include "SeqList.h"
 
 int main() {
   //初始化线性表
