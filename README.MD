@@ -27,5 +27,5 @@ Let's study these algorithms by using C program.
 
 ## 数据结构
 1.[顺序线性表(SeqList)](https://github.com/hongker/Algorithm-C/tree/master/src/SeqList)   
-2.[链式线性表(ChainList)](#)   
+2.[链式线性表(ChainList)](https://github.com/hongker/Algorithm-C/tree/master/src/ChainList)   
 3.[队列(Queue)](#)    
