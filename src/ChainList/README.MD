@@ -1,7 +1,6 @@
-## SeqList
+## ChainList
 编译方式:    
-  gcc SeqList.c SeqListExample.c -o SeqListExample.out    
+  gcc ChainList.c ChainListExample.c -o ChainListExample.out    
 
 查看结果:    
-  ./SeqListExample.out    
-  
+  ./ChainListExample.out    
