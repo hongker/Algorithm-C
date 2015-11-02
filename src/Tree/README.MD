@@ -25,8 +25,12 @@
     (3)如果2*i+1<=n,则其右子树根结点的编号为2*i+1;若2*i+1>n,则无右子树;    
 
 
-编译方式:    
-  gcc Tree.c TreeExample.c -o TreeExample.out    
+##二叉树的遍历
+  1.前序遍历(DLR)：先访问根结点，再按前序遍历左子树，后遍历右子树。   
+  2.中序遍历(LDR)：先按中序遍历左子树，再访问根结点，最后中序遍历右子树。    
+  3.后续遍历(LRD)：先后序遍历左子树，再后序遍历右子树，最后访问根结点。
 
-查看结果:    
-  ./TreeExample.out    
+##编译示例：
+  gcc ChainBinTree.c BinTreeExample.c -o BinTreeExample.out     
+
+  ./BinTreeExample.out    

@@ -1,6 +1,7 @@
 /**
  * 二叉树(链式)
  */
+
 #ifndef SIZE
 #define SIZE 50
 #endif
@@ -23,3 +24,8 @@ int IsEmpty(ChainBinTree *bt); //判断二叉树是否为空
 int Depth(ChainBinTree *bt); //获取二叉树的深度
 ChainBinTree *Search(ChainBinTree *bt,ElemType elem); //查找值为elem的结点
 void Clear(ChainBinTree *bt); //清空二叉树
+
+//遍历二叉树
+void BinTree_DLR(ChainBinTree *bt, void (*oper)(ChainBinTree *node)); //前序遍历
+void BinTree_LDR(ChainBinTree *bt, void (*oper)(ChainBinTree *node)); //中序遍历
+void BinTree_LRD(ChainBinTree *bt, void (*oper)(ChainBinTree *node)); //后序遍历

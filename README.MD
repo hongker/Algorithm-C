@@ -29,5 +29,5 @@ Let's study these algorithms by using C program.
 1.[顺序线性表(SeqList)](https://github.com/hongker/Algorithm-C/tree/master/src/SeqList)   
 2.[链式线性表(ChainList)](https://github.com/hongker/Algorithm-C/tree/master/src/ChainList)   
 3.[队列(Queue)](https://github.com/hongker/Algorithm-C/tree/master/src/Queue)    
-4.[栈(Stack)](https://github.com/hongker/Algorithm-C/tree/master/src/Stack)
-5.[树(Tree)](https://github.com/hongker/Algorithm-C/tree/master/src/Tree)
+4.[栈(Stack)](https://github.com/hongker/Algorithm-C/tree/master/src/Stack)    
+5.[树(Tree)](https://github.com/hongker/Algorithm-C/tree/master/src/Tree)    

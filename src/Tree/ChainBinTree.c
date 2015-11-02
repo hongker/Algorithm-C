@@ -1,7 +1,9 @@
 /**
  * 二叉树操作函数实现
  */
-
+#include "ChainBinTree.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * 初始化
  * @param  node [description]
@@ -27,7 +29,7 @@ int Add(ChainBinTree *bt, ChainBinTree *node, int type) {
     return 0;
   }
 
-  switch (n) {
+  switch (type) {
     case 1: //添加到左子树
       if(bt->left) {
         printf("左子树不为空\n");
@@ -147,6 +149,48 @@ void Clear(ChainBinTree *bt) {
     Clear(bt->right);
     free(bt);
     bt=NULL;
+  }
+  return;
+}
+
+/**
+ * 前序遍历
+ * @param bt   [description]
+ * @param oper [description]
+ */
+void BinTree_DLR(ChainBinTree *bt, void (*oper)(ChainBinTree *node)) {
+  if(bt) {
+    oper(bt);
+    BinTree_DLR(bt->left,oper);
+    BinTree_DLR(bt->right,oper);
+  }
+  return;
+}
+
+/**
+ * 中序遍历
+ * @param bt   [description]
+ * @param oper [description]
+ */
+void BinTree_LDR(ChainBinTree *bt, void (*oper)(ChainBinTree *node)) {
+  if(bt) {
+    BinTree_LDR(bt->left,oper);
+    oper(bt);
+    BinTree_LDR(bt->right,oper);
+  }
+  return;
+}
+
+/**
+ * 后序遍历
+ * @param bt   [description]
+ * @param oper [description]
+ */
+void BinTree_LRD(ChainBinTree *bt, void (*oper)(ChainBinTree *node)) {
+  if(bt) {
+    BinTree_LRD(bt->left,oper);
+    BinTree_LRD(bt->right,oper);
+    oper(bt);
   }
   return;
 }
