@@ -32,3 +32,4 @@ Let's study these algorithms by using C program.
 4.[栈(Stack)](https://github.com/hongker/Algorithm-C/tree/master/src/Stack)    
 5.[树(Tree)](https://github.com/hongker/Algorithm-C/tree/master/src/Tree)   
 6.[图(Graph)](https://github.com/hongker/Algorithm-C/tree/master/src/Graph)    
+7.[排序(Sort)](https://github.com/hongker/Algorithm-C/tree/master/src/Sort)    
