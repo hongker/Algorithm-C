@@ -3,7 +3,7 @@
  */
 #include <stdio.h>
 #include "CreateData.c"
-#include "BubbleSort.c"
+#include "BubbleSortBetter.c"
 
 #define ARRAYLEN 6
 
