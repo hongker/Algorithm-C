@@ -1,15 +1,9 @@
 /**
- * 冒泡排序使用示例
+ * 快速排序使用示例
  */
-#include <stdio.h>
-#include "CreateData.c"
-#include "BubbleSortBetter.c"
-
-#define ARRAYLEN 6
-
+#include "QuickSort.c"
 int main() {
   int i, a[ARRAYLEN];
-
   for(i=0;i<ARRAYLEN;i++)
     a[i] = 0;
 
@@ -23,12 +17,10 @@ int main() {
     printf("%d ", a[i]);
   printf("\n");
 
-  BubbleSort(a, ARRAYLEN);
+  QuickSort(a, 0, ARRAYLEN-1);
 
   printf("排序后：\n");
   for(i=0;i<ARRAYLEN;i++)
     printf("%d ", a[i]);
-
   printf("\n");
-  return 0;
 }
