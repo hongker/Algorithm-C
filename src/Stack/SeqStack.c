@@ -18,7 +18,7 @@ SeqStack *Init() {
     return NULL;
   }
 
-  stack->top = 0;
+  stack->top = -1;
   return stack;
 }
 
