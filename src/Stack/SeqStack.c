@@ -40,7 +40,7 @@ void Free(SeqStack *stack) {
  */
 int IsEmpty(SeqStack *stack) {
   printf("判断栈是否为空...\n");
-  if(stack->top==0) {
+  if(stack->top==-1) {
     return 1;
   }
   return 0;
@@ -65,7 +65,7 @@ int IsFull(SeqStack *stack) {
  */
 void Clear(SeqStack *stack) {
   printf("清空栈...\n");
-  stack->top = 0;
+  stack->top = -1;
 }
 
 /**
