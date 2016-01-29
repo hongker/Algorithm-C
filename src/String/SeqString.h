@@ -1,5 +1,5 @@
 /**
- * 字符串
+ * 字符串结构定义
  */
  #define MAXSIZE 100
  #define ElemType char
